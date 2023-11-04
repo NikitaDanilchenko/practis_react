@@ -33,7 +33,7 @@ function App() {
     setPosts([...posts, newPost]);
     setModal(false);
   };
-
+  //НОвый 
  async function fetchPosts() {
   const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
   setPosts(response.data)
